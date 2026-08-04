@@ -26,9 +26,9 @@ Development of a YAML-configured R pipeline that processes LiDAR and NAIP imager
 
 ---
 
-### Tree Crown Delineation Using LiDAR and NAIP Imagery
+### Tree Crown Delineation Using ML in Julia
 
-Comparison of Dalponte, Silva, Li, and Watershed crown delineation methods against ground-truth tree crown polygons.
+An experimental method of tree crown delineation using trained horizontal crown slices to make final crown polygons.
 
 *Project page coming soon.*
 
@@ -42,8 +42,6 @@ An ongoing project combining Sentinel imagery, elevation data, climate datasets,
 
 ---
 
-## Water Resources and Remote Sensing
-
 ### Lower Colorado River Water Conductivity
 
 A temporal and spatial analysis of water conductivity before and after the 1983 Lower Colorado River flood.
@@ -56,12 +54,14 @@ A remote-sensing analysis connecting land-cover change around Lake Mead with lon
 
 *Project page coming soon.*
 
----
+### CSULB Center for Community Engagement interactive map
 
-## Additional Selected Work
+An interactive map so the CSULB CCE can track where their workers are stationed around the country.
 
-- Las Vegas Wash water-quality and usage notebook
-- CSULB Center for Community Engagement web map
-- Las Vegas lawn-buyback environmental impact report
-- Static maps and cartographic products
-- ArcGIS Online and Experience Builder applications
+*Project page coming soon.*
+
+### Southern Nevada Water Authority Environmental Impact Report
+
+SNWA impact report of their lawn buyback program.
+
+*Project page coming soon.*
