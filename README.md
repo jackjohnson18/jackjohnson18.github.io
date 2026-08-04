@@ -1,1 +1,1 @@
-# jackjohnson18.github.io
+MSGISci from California State University Long Beach
