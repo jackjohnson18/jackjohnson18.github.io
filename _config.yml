@@ -1,3 +1,17 @@
-theme: jekyll-theme-minimal
-title: Jack's homepage
-description: A portfolio of my work
+title: Jack Johnson
+description: GIS, Remote Sensing, Environmental Modeling, and Spatial Data Science
+url: "https://jackjohnson18.github.io"
+baseurl: ""
+
+theme: minima
+
+author:
+  name: Jack Johnson
+  email: jminahan88@gmail.com
+
+header_pages:
+  - index.md
+  - projects.md
+  - technical-profile.md
+  - about.md
+  - contact.md
