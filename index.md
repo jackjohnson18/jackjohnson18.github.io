@@ -19,19 +19,19 @@ My research interests include urban forestry, habitat suitability modeling, wate
 
 ### Endangered Species Suitability Modeling
 
-A reproducible spatial modeling workflow developed to predict endangered plant habitat suitability across Mexico using occurrence records, climate variables, terrain data, soil information, and machine-learning methods.
+A reproducible spatial modeling workflow developed to predict endangered plant habitat suitability across Mexico using occurrence records, climate variables, terrain data, soil information, and machine-learning methods. This project was done in partnership with the Huntington Library and their GIS team.
 
 [View thesis project](thesis.md)
 
 ### Reproducible LiDAR Workflow Development
 
-A configurable R pipeline that processes raw LiDAR and multispectral imagery to create normalized point clouds, canopy height models, and cleaned individual-tree crown polygons.
+An R pipeline that processes raw LiDAR and multispectral imagery to create normalized point clouds, canopy height models, and cleaned individual-tree crown polygons. Includes five different methods of crown delineation.
 
 *Full project page coming soon.*
 
-### Tree Crown Delineation Using LiDAR and NAIP Imagery
+### The effects of flooding on the Lower Colorado River Basin
 
-A comparison of Dalponte, Silva, Li, and Watershed tree-crown delineation methods using LiDAR, NAIP imagery, and ground-truth crown polygons.
+A study on the water conductivity in the Lower Colorado River Basin before and after the flood of 1983.
 
 *Full project page coming soon.*
 
@@ -47,11 +47,11 @@ An ongoing remote-sensing project using satellite imagery, climate data, elevati
 
 **GIS and Web GIS:** ArcGIS Pro, ArcGIS Online, Experience Builder, QGIS, Google Earth Engine, GeoDa, and FME
 
-**Remote Sensing:** LiDAR, multispectral imagery, raster analysis, canopy-height modeling, and machine learning
+**Remote Sensing:** LiDAR, multispectral imagery, raster analysis, canopy-height modeling, vector processing, and machine learning
 
-**Programming and Modeling:** R, Python, SQL, Random Forest, MaxEnt, raster processing, and vector processing
+**Programming and Modeling:** R, Python, SQL, HTML, Julia, MaxEnt, Random Forest.
 
-**Research Areas:** Urban forestry, habitat suitability, water resources, climate change, environmental modeling, and cryosphere analysis
+**Research Areas:** Urban forestry, habitat suitability, water resources, time series analysis, environmental modeling, and cryosphere analysis
 
 ---
 
