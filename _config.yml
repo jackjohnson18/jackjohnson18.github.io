@@ -5,9 +5,8 @@ baseurl: ""
 
 theme: minima
 
-author:
-  name: Jack Johnson
-  email: jminahan88@gmail.com
+author: Jack Johnson
+email: jminahan88@gmail.com
 
 header_pages:
   - index.md
