@@ -59,22 +59,20 @@ All three of our case studies took place in Mexico, particularly Hidalgo, Baja C
 ## Data examples
 
 |Occurance points|Elevation|Climate|Soil|
-|---|---|---|---|
+|:---|:---|:---|:---|
 |![points](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/justpoints.png)|![elevation](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/elevation.png)|![rain](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/rain.png)|![soil](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/soil.png)|
 
 ---
 
 ## Environmental Predictors
 
-[List and explain the final predictor variables used in the model.]
+Our literature review found that the most important meteorological data to include are the precipitation of the wettest and driest months as well as the average temperature of the three hottest and coldest months. The three-month periods are averaged out and subtracted for a derived variable called Seasonal Temperature Delta. Elevation is used in the model as a predictor; it is also used to derive slope and aspect. Aspect is further divided into sine and cosine to make them linear. Soil is also used as a qualitative predictor. Any two predictors that have a collinearity score outside of -0.8 to 0.8 are dropped. This helps improve processing time, reduce redundancy, and help stabilize predictor weights.
 
 ---
 
 ## Modeling Workflow
 
-[Describe the complete workflow from occurrence records to the final suitability maps.]
-
-![Modeling workflow diagram](/assets/images/thesis/modeling-workflow.png)
+![Modeling workflow diagram](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/suitabilityworkflow.png)
 
 ---
 
