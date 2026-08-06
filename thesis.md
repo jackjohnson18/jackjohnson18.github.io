@@ -126,26 +126,23 @@ The first evaluation metric is our confusion matrix. A confusion matrix is a cha
 
 |Taxa|Current suitability|Future uitability|
 |---|---|---|
-|Cephalocereus senilis (Haw.) Pfeiff.|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalcurrent1.png" width="220" alt="finalcurrent1">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalfuture1.png" width="220" alt="finalfuture1">|
-|Fouquieria burragei rose|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalcurrent2.png" width="220" alt="finalcurrent2">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalfuture2.png" width="220" alt="finalfuture2">|
-|Stenocereus martinezii (J.G.Ortega) Buxb.|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/layoutcur.png" width="220" alt="layoutcur">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/layoutfut.png" width="220" alt="layoutfut">|
+|Cephalocereus senilis (Haw.) Pfeiff.|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalcurrent1.png" width="300" alt="finalcurrent1">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalfuture1.png" width="300" alt="finalfuture1">|
+|Fouquieria burragei rose|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalcurrent2.png" width="300" alt="finalcurrent2">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalfuture2.png" width="300" alt="finalfuture2">|
+|Stenocereus martinezii (J.G.Ortega) Buxb.|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/Layoutcur.png" width="300" alt="Layoutcur">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/Layoutfut.png" width="300" alt="Layoutfut">|
 
 ---
 
 
 ## Current and Future Comparison
 
-[Explain the major differences between current and future suitability.]
-
-![Current and future comparison map](/assets/images/thesis/current-future-comparison.png)
-
-### Change in Suitable Area
-
-[Add the total area change and percent change.]
-
-### Geographic Patterns of Change
-
-[Describe where suitability increased, decreased, remained stable, or shifted.]
+|Species|Time period|Suitable land area km2|Points inside suitable area|
+|---|---|---|---|
+|Cephalocereus senilis (Haw.) Pfeiff.|Current|839|86|
+|Cephalocereus senilis (Haw.) Pfeiff.|2040-2060|1264|9|
+|Fouquieria burragei rose|Current|1004|121|
+|Fouquieria burragei rose|2040-2060|530|7|
+|Stenocereus martinezii (J.G.Ortega) Buxb.|Current| | |
+|Stenocereus martinezii (J.G.Ortega) Buxb.|2040-2060| | |
 
 ---
 
