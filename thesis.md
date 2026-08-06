@@ -4,8 +4,6 @@ title: Endangered Species Suitability Modeling
 permalink: /thesis/
 ---
 
-# Endangered Species Suitability Modeling
-
 **Master of Science thesis developed for California State University Long Beach in partnership with the Huntington Library**
 
 This model uses Machine Learning to identify areas of high suitability for endangered species. Everything is written in R and is built to be run in RStudio.
@@ -80,7 +78,9 @@ Our literature review found that the most important meteorological data to inclu
 
 ## Background Point Generation
 
-[Explain how background points were created and why they were needed.]
+Randomized background points are spread across the AOI to simulate absence areas. Imagine you surveyed a 30x30 meter area and found none of this plant. That is what these points do: make it so we don't have to physically go there.
+
+![background points](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/absenceclose.png)
 
 ---
 
