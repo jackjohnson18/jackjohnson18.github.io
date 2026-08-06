@@ -58,9 +58,11 @@ All three of our case studies took place in Mexico, particularly Hidalgo, Baja C
 
 ## Data examples
 
-|Occurance points|Elevation|Climate|Soil|
-|:---|:---|:---|:---|
-|![points](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/justpoints.png)|![elevation](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/elevation.png)|![rain](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/rain.png)|![soil](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/soil.png)|
+
+| Occurance points | Elevation | Climate | Soil |
+| :---: | :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/justpoints.png" width="220" alt="points"> | <img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/elevation.png" width="220" alt="elevation"> | <img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/rain.png" width="220" alt="rain"> | <img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/soil.png" width="220" alt="soil"> |
+
 
 ---
 
