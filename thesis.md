@@ -10,7 +10,7 @@ permalink: /thesis/
 
 This model uses Machine Learning to identify areas of high suitability for endangered species. Everything is written in R and is built to be run in RStudio.
 
-[View full readme](https://gist.github.com/jackjohnson18/fe0d60855d3c2133f2d4883c3fb9a299) · [View thesis manuscript](LINK) · [View Interactive Storymap](https://storymaps.arcgis.com/stories/d660dff3202d40dfa0e34ab9efdcfd9b) · [View our poster submission for the Esri UC](https://mapgallery.esri.com/event/69209f990d5f072ce16a7d51/submission-detail/43082)
+[View full readme](https://gist.github.com/jackjohnson18/fe0d60855d3c2133f2d4883c3fb9a299) · [View thesis manuscript](LINK) · [View Interactive Storymap](https://storymaps.arcgis.com/stories/d660dff3202d40dfa0e34ab9efdcfd9b) · [View our poster for the Esri UC](https://mapgallery.esri.com/event/69209f990d5f072ce16a7d51/submission-detail/43082)
 
 ---
 
@@ -56,11 +56,11 @@ All three of our case studies took place in Mexico, particularly Hidalgo, Baja C
 
 ---
 
-## Data Preparation
+## Data examples
 
-[Explain how the datasets were projected, aligned, resampled, clipped, checked, and standardized.]
-
-![Environmental predictor examples](/assets/images/thesis/predictor-layers.png)
+|Occurance points|Elevation|Climate|Soil|
+|---|---|---|---|
+|!(https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/justpoints.png)|!(https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/elevation.png)|!(https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/rain.png)|!(https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/soil.png)|
 
 ---
 
