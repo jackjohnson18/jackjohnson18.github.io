@@ -86,35 +86,33 @@ Randomized background points are spread across the AOI to simulate absence areas
 
 ## Random Forest Model
 
-[Explain how the model was trained, how the data were split, and how the model produced suitability probabilities.]
+The model is initially trained on a 70/30 split. 70 percent of the occurrence and absence points are combined into training data; the remaining 30 percent are testing data. The 70 percent create decision trees based on the data, and then the trees are tested on the training data. After this is run, the model is retrained, where all occurrence and absence data are combined to make new decision trees. Every single tile in our AOI is then given a value between 0 and 1 for how it did on each decision tree. All of the scores are added up for each tile and averaged out to get the final suitability map.
 
-![Random Forest decision tree](/assets/images/thesis/random-forest-tree.png)
+![Random Forest decision tree](https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/random_forest_tree_transparent.png)
 
 ---
 
 ## Model Evaluation
 
-[Explain how the model was evaluated.]
+The first evaluation metric is our confusion matrix. A confusion matrix is a chart depicting how well our training data trees worked on our testing data. Below are the confusion matrices for each of our three case studies. We used a p10 suitability threshold. This means that the bottom 10 percent of points in terms of suitability are cut for the threshold. This helps tighten up our threshold as well as eliminate biases from outliers.
+
+|Observed value|Threshold|True positive|True negative|False positive|False negative|
+|---|---|---|---|---|---|
+|Species 1 Training|0.544411|60|6549|0|7|
+|Species 1 Testing|0.544411|15|2807|0|14|
+|Species 2 Training|0.568865|84|6546|1|10|
+|Species 2 Testing|0.568865|28|2803|3|13|
+|Species 3 Training|0.712693|261|6549|0|29|
+|Species 3 Testing|0.712693|102|2793|14|23|
 
 ### Evaluation Metrics
 
-[Add accuracy, recall, specificity, Kappa, confusion-matrix results, or other metrics.]
-
-![Confusion matrix](/assets/images/thesis/confusion-matrix.png)
-
----
-
-## Suitability Threshold
-
-[Explain how the threshold was selected and how it converted probability values into suitable and unsuitable areas.]
-
----
-
-## Variable Importance
-
-[Explain which variables were most influential and what that means.]
-
-![Variable importance chart](/assets/images/thesis/variable-importance.png)
+|Dataset|Accuracy|Recall|Specificity|Precision|F1 score|Balanced accuracy|Kappa|
+|---|---|---|---|---|---|---|---|
+|Species 1|99.51|51.72|100|100|68.18|75.86|0.680|
+|Species 2|99.44|68.29|99.89|90.32|77.78|84.09|0.775|
+|Species 3|98.74|81.60|99.50|87.93|84.65|90.55|0.840|
+|Average|99.23|67.21|99.80|92.75|76.87|83.50|0.765|
 
 ---
 
@@ -124,23 +122,16 @@ Randomized background points are spread across the AOI to simulate absence areas
 
 ![Current suitability map](/assets/images/thesis/current-suitability.png)
 
-### Current Results
+### Results
 
-[Add suitable area, occurrence points captured, major geographic patterns, and other key values.]
-
----
-
-## Future Habitat Suitability
-
-[Describe how future climate data were used.]
-
-![Future suitability map](/assets/images/thesis/future-suitability.png)
-
-### Future Results
-
-[Add future suitable area, occurrence points captured, and major geographic patterns.]
+|Taxa|Current suitability|Future uitability|
+|---|---|---|
+|Cephalocereus senilis (Haw.) Pfeiff.|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalcurrent1.png" width="220" alt="finalcurrent1">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalfuture1.png" width="220" alt="finalfuture1">|
+|Fouquieria burragei rose|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalcurrent2.png" width="220" alt="finalcurrent2">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/finalfuture2.png" width="220" alt="finalfuture2">|
+|Stenocereus martinezii (J.G.Ortega) Buxb.|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/layoutcur.png" width="220" alt="layoutcur">|<img src="https://raw.githubusercontent.com/jackjohnson18/jackjohnson18/refs/heads/main/layoutfut.png" width="220" alt="layoutfut">|
 
 ---
+
 
 ## Current and Future Comparison
 
