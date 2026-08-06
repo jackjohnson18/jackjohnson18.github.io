@@ -48,8 +48,11 @@ All three of our case studies took place in Mexico, particularly Hidalgo, Baja C
 
 |Source|Link|Usage|
 |---|---|---|
-|Global Biodiversity Information Facility|![GBIF](https://www.gbif.org/)|Species Occurance Data|
-|Shuttle Topography Radar Mission|![SRTM](https://www.earthdata.nasa.gov/data/instruments/srtm)|Elevation and Topography Derivitives|
+|Global Biodiversity Information Facility|[GBIF](https://www.gbif.org/)|Species Occurance Data|
+|Shuttle Topography Radar Mission|[SRTM](https://www.earthdata.nasa.gov/data/instruments/srtm)|Elevation and Topography Derivitives|
+|WorldClim|[WorldClim](https://www.worldclim.org/)|Monthly meteorological data|
+|National Institute of Statistics and Geography|[INEGI](https://en.www.inegi.org.mx/)|Qualitative soil data|
+|OpenStreetMap|[OpenStreetMap](https://www.openstreetmap.org)|Human presence data|
 
 ---
 
