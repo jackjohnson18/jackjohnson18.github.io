@@ -136,7 +136,7 @@ The first evaluation metric is our confusion matrix. A confusion matrix is a cha
 |Fouquieria burragei rose|Current|1004|121|
 |Fouquieria burragei rose|2040-2060|530|7|
 |Stenocereus martinezii (J.G.Ortega) Buxb.|Current|7876|373|
-|Stenocereus martinezii (J.G.Ortega) Buxb.|2040-2060| |0|
+|Stenocereus martinezii (J.G.Ortega) Buxb.|2040-2060|159|0|
 
 ---
 
