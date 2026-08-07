@@ -116,12 +116,6 @@ The first evaluation metric is our confusion matrix. A confusion matrix is a cha
 
 ---
 
-## Current Habitat Suitability
-
-[Describe the current-condition model results.]
-
-![Current suitability map](/assets/images/thesis/current-suitability.png)
-
 ### Results
 
 |Taxa|Current suitability|Future uitability|
