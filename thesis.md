@@ -141,69 +141,27 @@ The first evaluation metric is our confusion matrix. A confusion matrix is a cha
 |Cephalocereus senilis (Haw.) Pfeiff.|2040-2060|1264|9|
 |Fouquieria burragei rose|Current|1004|121|
 |Fouquieria burragei rose|2040-2060|530|7|
-|Stenocereus martinezii (J.G.Ortega) Buxb.|Current| | |
-|Stenocereus martinezii (J.G.Ortega) Buxb.|2040-2060| | |
+|Stenocereus martinezii (J.G.Ortega) Buxb.|Current|7876|373|
+|Stenocereus martinezii (J.G.Ortega) Buxb.|2040-2060| |0|
 
 ---
 
 ## Key Findings
 
-[Summarize the most important findings in a few short paragraphs.]
+The three species that we covered experienced predicted shifts in their habitats. Some of the habitats' total suitable area expanded, and some shrank. The more important metric is points inside the suitable area. As seen in the maps above, the current ecosystem is expected to go through drastic changes over the next quarter century. Plants are not as mobile as humans, so their only chance at survival would be adaptation. Another thing to note is that these are dry desert plants that are suited for hot arid climates. If the species that thrive in deserts are predicted to die out, the species that require cooler climates are under an even bigger threat.
 
 ---
 
 ## Uncertainty and Limitations
 
-[Discuss occurrence-data uncertainty, sampling bias, future climate uncertainty, model limitations, and the difference between suitability and confirmed presence.]
+Uncertainty in a prediction-based science has to be considered. While the areal groupings for these plants are more or less correct, our data source includes a 30km offset radius to protect against poachers. This doesn't change much for climate variables, but things such as soil, slope, aspect, and elevation could be impacted.
+
+Machine learning is also filled with uncertainty. Considering the model we used, we made constraints on how suitability is predicted as a way to mitigate the amount of false negatives. Having small areas of near-perfect suitability is more valuable than a quarter of the country being deemed suitable since the next steps might require fieldwork.
+
+Lastly, climate change is another uncertainty. WorldClim has hundreds of future prediction datasets for multiple climate scenarios. This is just one dataset for one scenario.
 
 ---
 
 ## Conservation Applications
 
-[Explain how the results could support field surveys, monitoring, conservation planning, botanical collections, or future research.]
-
----
-
-## Final Deliverables
-
-### Thesis and Documentation
-
-- [Full Thesis PDF](LINK)
-- [Thesis Presentation](LINK)
-- [Research Poster](LINK)
-
-### Code
-
-- [Project Repository](LINK)
-- [Data Preparation Code](LINK)
-- [Random Forest Code](LINK)
-- [Future Projection Code](LINK)
-
-### Maps and Results
-
-- [Current Suitability Map](LINK)
-- [Future Suitability Map](LINK)
-- [Comparison Map](LINK)
-- [Model Evaluation Results](LINK)
-- [Variable Importance Results](LINK)
-
-### Interactive Products
-
-- [Interactive Map](LINK)
-- [ArcGIS Application](LINK)
-
----
-
-## Skills Demonstrated
-
-[Add the main technical, analytical, research, and cartographic skills demonstrated by the project.]
-
----
-
-## Software and Technologies
-
-[Add the software, programming languages, packages, and platforms used.]
-
----
-
-[Return to Portfolio Home](/)
+The Huntington Library is working with the Center for Plant Conservation. The CPC is working towards getting a bunch of botanical gardens together to share taxon locations and create an endangered species database to use for models like this one.
