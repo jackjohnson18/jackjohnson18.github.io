@@ -11,6 +11,7 @@ Thank you for reviewing my portfolio.
 ## Email
 
 [Personal Email](mailto:jminahan88@gmail.com)
+
 [CSULB Email](mailto:jackjohnson02@student.csulb.edu)
 
 ## Phone number
