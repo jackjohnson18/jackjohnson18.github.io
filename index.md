@@ -27,7 +27,7 @@ A reproducible spatial modeling workflow developed to predict endangered plant h
 
 An R pipeline that processes raw LiDAR and multispectral imagery to create normalized point clouds, canopy height models, and cleaned individual-tree crown polygons. Includes five different methods of crown delineation.
 
-*Full project page coming soon.*
+[View urban forestry work](treecrowndelineation.md)
 
 ### The effects of flooding on the Lower Colorado River Basin
 
