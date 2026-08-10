@@ -10,7 +10,11 @@ Thank you for reviewing my portfolio.
 
 ## Email
 
-[Email Jack Johnson](mailto:jminahan88@gmail.com)
+[Personal Email](mailto:jminahan88@gmail.com)
+[CSULB Email](mailto:jackjohnson02@student.csulb.edu)
+
+## Phone number
++1 (424) 237-7889
 
 ## Professional Profiles
 
@@ -19,4 +23,4 @@ Thank you for reviewing my portfolio.
 
 ## CV
 
-A downloadable CV will be added to this page shortly.
+CV available upon request
