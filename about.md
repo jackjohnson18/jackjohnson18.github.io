@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About Me
-
 I am a GIS and remote sensing professional with a Master of Science in Geographic Information Science from California State University, Long Beach.
 
 My work centers on applying geospatial analysis, environmental data science, remote sensing, and programming to questions involving climate, ecology, water resources, urban forestry, and polar environments.
